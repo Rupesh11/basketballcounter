@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.team {
+    padding-top: 10px;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 20px;   
+    font-family: Verdana;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.score{
+    background:#080001 ;
+    color:#F94F6D;
+    width: 100px;
+    height: 70px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Cursed Timer ULiL;
+    border-radius: 5px;
+ 
+}
+
+.points{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+
+    
+}
+
+.homepoints{
+    display: flex;
+    justify-content: space-around;
+    font-family: Cursed Timer ULiL;
+    
+    
+}
+
+.guestpoints{
+    display: flex;
+    justify-content: space-around;
+    font-family: Cursed Timer ULiL;
+}
+
+
+.box{
+    border: 1px solid #9AABD8 ;
+    margin: 0px 2px;
+    color: #9AABD8;
+    text-align: center;
+    font-weight: 200;
+    padding: 5px 5px;
+    border-radius: 3px;
+    
+}
+
+.newbutton{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#new-game{
+    background: #F94F6D;
+}
